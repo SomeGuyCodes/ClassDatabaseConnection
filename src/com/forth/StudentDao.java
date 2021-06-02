@@ -18,7 +18,7 @@ public class StudentDao {
     Object[] stuInfo = new Object[7];
     int status;
 
-    public void Start (){
+    public void Starts (){
 
         Student test = new Student();
         ArrayList<Student> StudentInfo = new ArrayList<>();

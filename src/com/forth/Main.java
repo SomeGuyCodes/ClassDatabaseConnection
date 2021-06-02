@@ -23,7 +23,7 @@ public class Main {
         studentOne.seteMail("TheCruise@scientology.com");
         studentOne.setgPA(3.7);
         studentOne.setsSN(666666666);
-        StudentsDao test = new StudentsDao();
+        StudentDatabaseDao test = new StudentDatabaseDao();
 
         test.Start();
     }
